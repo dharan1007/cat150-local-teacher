@@ -1,0 +1,10 @@
+{
+  "name": "CAT 150 Local Teacher",
+  "short_name": "CAT150",
+  "description": "Local-first CAT 2026 practice for VARC, DILR and QA with teacher board and offline progress tracking.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f6f7fb",
+  "theme_color": "#f6f7fb",
+  "icons": [{"src":"/icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}
