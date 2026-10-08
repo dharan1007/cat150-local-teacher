@@ -475,7 +475,7 @@ window.addEventListener('keydown', e => {
 });
 
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/sw.js').catch(() => {});
+  navigator.serviceWorker.register(new URL('../sw.js', import.meta.url)).catch(() => {});
 }
 
 render();
