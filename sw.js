@@ -1,10 +1,10 @@
-const CACHE = 'cat150-local-teacher-v8';
+const CACHE = 'cat150-local-teacher-v9';
 const BASE = self.registration.scope;
 const CORE = [
   '',
   'index.html',
-  'styles.css?v=8',
-  'src/app.js?v=8',
+  'styles.css?v=9',
+  'src/app.js?v=9',
   'src/question-bank.js',
   'src/challenge-bank.js',
   'src/lessons.js',
