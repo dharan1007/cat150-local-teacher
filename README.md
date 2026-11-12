@@ -9,7 +9,7 @@ npm test
 python -m http.server 4173
 ```
 
-Open `http://localhost:4173/`. Microphone access requires a secure context (localhost or HTTPS). `index.html`, `src/`, `styles.css`, the manifest, and the service worker are deployable static files.
+Open `http://localhost:4173`. Microphone access requires a secure context (localhost or HTTPS). `index.html`, `src/`, `styles.css`, the manifest, and the service worker are deployable static files.
 
 ## What is local
 
