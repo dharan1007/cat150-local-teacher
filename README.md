@@ -2,12 +2,13 @@
 
 A static CAT preparation site with 40 topic lessons, an annotated question bank, local progress, a resizable explanation board, a 24-question CAT-style diagnostic, and on-device speech recognition and OCR. The site has no API keys or server-side inference.
 
-## Run and test
+## Run locally
 
 ```bash
-npm test
 python -m http.server 4173
 ```
+
+This is a static site repository; it has no `package.json`, npm test script, or checked-in automated test suite.
 
 Open `http://localhost:4173`. Microphone access requires a secure context (localhost or HTTPS). `index.html`, `src/`, `styles.css`, the manifest, and the service worker are deployable static files.
 
